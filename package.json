@@ -1,0 +1,11 @@
+{
+  "name": "threadclip",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome 擴充功能：下載 Threads 貼文內的影片",
+  "scripts": {
+    "test": "node --test",
+    "package": "sh scripts/package.sh"
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280">
+  <rect width="440" height="280" fill="#FFF6F3"/>
+  <g transform="translate(40 80)">
+    <rect width="120" height="120" rx="28" fill="#F2452B"/>
+    <g transform="scale(0.9375)" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M64 17 C77 22.5 77 33.5 64 39 C51 44.5 51 55.5 64 61 V91"/>
+      <path d="M46 73 L64 91 L82 73"/>
+      <path d="M40 109 H88"/>
+    </g>
+  </g>
+  <text x="188" y="134" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#1F1F1F">ThreadClip</text>
+  <text x="190" y="172" font-family="PingFang TC, Heiti TC, sans-serif" font-size="20" fill="#555">一鍵下載 Threads 影片</text>
+</svg>

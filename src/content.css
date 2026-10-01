@@ -1,0 +1,84 @@
+.threadclip-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2147483000;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 14px 0 11px;
+  border: 2px solid rgba(255, 255, 255, 0.95);
+  border-radius: 999px;
+  background: #f2452b;
+  color: #fff;
+  font: 700 14px/1 -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Segoe UI", sans-serif;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+  animation: threadclip-pop 0.35s cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+
+.threadclip-btn:hover,
+.threadclip-btn:focus-visible {
+  transform: translateY(-1px) scale(1.05);
+  background: #d93a22;
+  box-shadow: 0 6px 20px rgba(242, 69, 43, 0.5), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.threadclip-btn:active {
+  transform: scale(0.97);
+}
+
+.threadclip-btn:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
+.threadclip-btn svg {
+  flex: none;
+  width: 18px;
+  height: 18px;
+}
+
+.threadclip-btn[data-state="loading"] {
+  cursor: progress;
+}
+
+.threadclip-btn[data-state="done"] {
+  background: #16a34a;
+}
+
+.threadclip-btn[data-state="error"] {
+  background: #1c1c1e;
+}
+
+.threadclip-btn[data-state="error"] svg {
+  color: #ff6b57;
+}
+
+.threadclip-spin {
+  animation: threadclip-spin 0.8s linear infinite;
+}
+
+@keyframes threadclip-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes threadclip-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .threadclip-btn,
+  .threadclip-spin {
+    animation: none;
+  }
+}

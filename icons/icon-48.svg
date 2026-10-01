@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- ThreadClip：一條線（thread）順勢收束成下載箭頭。主色 #F2452B -->
+  <g>
+    <rect width="128" height="128" rx="30" fill="#F2452B"/>
+    <g fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M64 17 C77 22.5 77 33.5 64 39 C51 44.5 51 55.5 64 61 V91"/>
+      <path d="M46 73 L64 91 L82 73"/>
+      <path d="M40 109 H88"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <!-- 16px 專用：對齊像素網格、線寬 2px，波浪簡化為半個彎 -->
+  <rect width="16" height="16" rx="3.5" fill="#F2452B"/>
+  <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 2.5 C9.5 3 9.5 5 8 6 V10"/>
+    <path d="M5 8 L8 11 L11 8"/>
+    <path d="M4.5 13 H11.5"/>
+  </g>
+</svg>
