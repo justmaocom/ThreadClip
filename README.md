@@ -18,7 +18,11 @@
 
 ## 安裝
 
-Chrome 線上應用程式商店版本正在準備上架，上架後會在這裡附上連結。在那之前，可以用開發人員模式安裝：
+從 [Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/threadclip/ijbgoeoimoeoclhcadgigfonepebabld) 安裝，按「加到 Chrome」即可。
+
+### 從原始碼安裝
+
+想試用尚未上架的版本，也可以用開發人員模式安裝：
 
 1. 下載或 clone 這個 repo
 2. 開啟 `chrome://extensions`
