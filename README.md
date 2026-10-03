@@ -1,10 +1,14 @@
 # ThreadClip
 
-<img src="store/promo-small.svg" alt="ThreadClip 圖示" />
+<img src="store/promo-marquee.png" alt="ThreadClip：一鍵下載 Threads 影片" />
 
 一個 Chrome 擴充功能，在 [Threads](https://www.threads.com) 的貼文影片上加入下載按鈕，按一下就能把影片存到電腦。
 
 不用複製網址、不用跳到第三方網站，也不會降低畫質。
+
+## 示範影片
+
+[![ThreadClip 示範影片](https://img.youtube.com/vi/hZIiS87D8no/maxresdefault.jpg)](https://www.youtube.com/watch?v=hZIiS87D8no)
 
 ## 功能
 
@@ -98,7 +102,7 @@ npm test
 npm run package
 ```
 
-會產生 `threadclip-<版本>.zip`，只包含擴充功能執行需要的檔案，版本號取自 `manifest.json`。把它上傳到 [Chrome Web Store 開發人員資訊主頁](https://chrome.google.com/webstore/devconsole)。商店表單要填的文字與宣傳圖放在 `store/`。
+會產生 `threadclip-<版本>.zip`，只包含擴充功能執行需要的檔案，版本號取自 `manifest.json`。把它上傳到 [Chrome Web Store 開發人員資訊主頁](https://chrome.google.com/webstore/devconsole)。商店表單要填的文字與宣傳圖放在 `store/`，圖檔原始碼在 `store/design/`，用 `scripts/render-store-assets.sh` 重新輸出。
 
 ## 聲明
 

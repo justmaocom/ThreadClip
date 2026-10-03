@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "ThreadClip",
-  "version": "1.0.0",
-  "description": "在 Threads 貼文的影片上加入下載按鈕",
+  "version": "1.0.1",
+  "description": "一鍵下載 Threads 影片：在貼文影片右上角加入下載按鈕，不重新編碼、自動命名，不收集任何資料。",
   "homepage_url": "https://justmao.com",
   "minimum_chrome_version": "116",
   "permissions": ["downloads", "offscreen"],
